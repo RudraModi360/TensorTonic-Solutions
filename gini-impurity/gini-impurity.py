@@ -8,7 +8,6 @@ def gini_impurity(y_left, y_right):
     n_right = len(y_right)
     n_total = n_left + n_right
 
-    # 🔥 Handle completely empty input
     if n_total == 0:
         return 0.0
 
